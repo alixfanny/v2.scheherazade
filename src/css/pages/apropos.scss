@@ -1,0 +1,67 @@
+@import '../variables.scss';
+
+.apropos{
+    @include container();
+    font-family: 'Bacasime Antique', serif;
+
+    .title-apropos{
+        text-align: center;
+        font-size: $subTitle;
+        font-weight: bold;
+        border-bottom: solid 2px $Color;
+        width: 69%;
+        margin-left: 190px;
+        color: $primaryColor;
+        margin-bottom: 100px;
+        margin-top: 125px;
+    }
+
+    .section{
+        @include display(space-between, center);
+        margin-bottom: 100px;
+        .texte{
+            width: 65%;
+            color: $primaryColor;
+
+            h3{
+                font-size: 25px;
+            }
+
+            p{
+                font-size: $texte;
+            }
+        }
+
+        .image2{
+            width: 66%;
+            height: 100%;
+        }
+
+        .photo1{
+            height: 56vh;
+        }
+
+        .photo3{
+            height: 50vh;
+        }
+
+        .photo2{
+            width: 66%;
+            height: 100%;
+        }
+        
+    }
+
+    .liste{
+        font-size: $texte;
+        color: $primaryColor;
+        margin-bottom: 100px;
+    }
+
+    .line{
+        border-bottom: solid 2px $Color;
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 100px;
+    }
+}

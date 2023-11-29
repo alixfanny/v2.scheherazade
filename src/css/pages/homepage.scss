@@ -1,0 +1,73 @@
+@import '../variables.scss';
+
+.overlay-filter {
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.44;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.carrousel{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title-name{
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    font-size: $title;
+    margin-left: 55px;
+    color: white;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.info{
+    position: absolute;
+    top: 60%;
+    color: white;
+    font-size: $subTitle;
+    z-index: 2;
+    @include display(center, center);
+    flex-direction: column;
+    width: 100vw;
+
+    .quote-text{
+        margin: 0;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .quote-author{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-family: 'Bacasime Antique', serif;
+    }
+
+    .button-portfolio{
+        width: 29%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        cursor: pointer;
+
+        #btnPortfolioAccess{
+            display: block;
+            border: white solid;
+            background-color: transparent;
+            color: white;
+            padding: 1%;
+            font-size: $title;
+            cursor: pointer;
+            font-family: 'Bacasime Antique', serif;
+        }
+    }
+
+    .logo-instagram{
+        margin-top: 20px;
+        color: white;
+    }
+}

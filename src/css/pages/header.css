@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script&display=swap");
+.lien {
+  text-decoration: none;
+  color: #4C3D3D;
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 70px;
+  font-family: "Bacasime Antique", serif;
+}
+.header a {
+  text-decoration: none;
+}
+.header .brandname {
+  width: 50%;
+}
+.header .brandname .brandname-name {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #4C3D3D;
+}
+.header .brandname .brandname-work {
+  font-size: 36px;
+  color: #7A7979;
+  margin: 0;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 36px;
+  width: 58%;
+  color: #4C3D3D;
+  padding-left: 13%;
+}
+.header .menu .menu-item {
+  border-bottom: #4C3D3D solid 2px;
+  padding-bottom: 10px;
+  margin: 0;
+  padding-top: 70px;
+  color: #4C3D3D;
+}
+.header .menu .mensuration {
+  cursor: pointer;
+}
+.header .menu .about:hover, .header .menu .avis:hover, .header .menu .contact:hover, .header .menu .mensuration:hover {
+  border-bottom: solid 2px #E29624;
+  color: #E29624;
+}/*# sourceMappingURL=header.css.map */

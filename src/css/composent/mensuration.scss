@@ -1,0 +1,22 @@
+@import '../variables.scss';
+
+.overlay{
+    position: absolute;
+    top: 18%;
+    right: 35%;
+    border: 2px solid $Color;
+    width: 19%;
+    z-index: 3;
+    background-color: white;
+    font-size: $texte;
+    color: $primaryColor;
+    
+    p{
+        margin: 10px;
+        margin-left: 10px;
+    }
+
+    .mensuration{
+        border-bottom: none;
+    }
+}

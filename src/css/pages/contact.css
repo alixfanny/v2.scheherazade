@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script&display=swap");
+.lien {
+  text-decoration: none;
+  color: #4C3D3D;
+  font-weight: 700;
+}
+
+.contact-section {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: "Bacasime Antique", serif;
+}
+.contact-section .title-contact {
+  font-size: 48px;
+  color: #4C3D3D;
+  border-bottom: solid 2px #E29624;
+  width: 12%;
+  margin-bottom: 7%;
+}
+.contact-section .contenue-contact {
+  display: flex;
+  margin-bottom: 5%;
+}
+.contact-section .contenue-contact .formulaire {
+  width: 50%;
+}
+.contact-section .contenue-contact .texte-photo {
+  width: 50%;
+}
+.contact-section .contenue-contact .texte-photo .texte {
+  font-size: 28px;
+}/*# sourceMappingURL=contact.css.map */

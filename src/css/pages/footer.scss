@@ -1,0 +1,14 @@
+@import '../variables.scss';
+
+footer {
+    background-color: $primaryColor;
+    @include container();
+    
+    p {
+        color: white;
+        font-size: 20px;
+        padding: 0.5% 2% 0% 2%;
+        margin: 0;
+    }
+}
+  

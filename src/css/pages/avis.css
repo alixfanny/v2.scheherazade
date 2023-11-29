@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script&display=swap");
+.lien {
+  text-decoration: none;
+  color: #4C3D3D;
+  font-weight: 700;
+}
+
+.avis-section {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: "Bacasime Antique", serif;
+}
+.avis-section .avis-tittle {
+  text-align: center;
+  color: #4C3D3D;
+  border-bottom: solid 2px #E29624;
+  width: 53%;
+  margin-left: 24%;
+  font-size: 36px;
+  margin-bottom: 6%;
+}
+.avis-section .avis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.avis-section .avis-right {
+  margin-left: 50%;
+}
+.avis-section .texte {
+  font-size: 20px;
+  color: #7A7979;
+}
+.avis-section .author-avis {
+  text-decoration: none;
+  color: #4C3D3D;
+}/*# sourceMappingURL=avis.css.map */

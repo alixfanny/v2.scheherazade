@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script&display=swap");
+.lien {
+  text-decoration: none;
+  color: #4C3D3D;
+  font-weight: 700;
+}
+
+.overlay-filter {
+  position: absolute;
+  z-index: 2;
+  background-color: black;
+  opacity: 0.44;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.carrousel {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title-name {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  font-size: 48px;
+  margin-left: 55px;
+  color: white;
+  font-family: "Bacasime Antique", serif;
+}
+
+.info {
+  position: absolute;
+  top: 60%;
+  color: white;
+  font-size: 36px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.info .quote-text {
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+}
+.info .quote-author {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family: "Bacasime Antique", serif;
+}
+.info .button-portfolio {
+  width: 29%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.info .button-portfolio #btnPortfolioAccess {
+  display: block;
+  border: white solid;
+  background-color: transparent;
+  color: white;
+  padding: 1%;
+  font-size: 48px;
+  cursor: pointer;
+  font-family: "Bacasime Antique", serif;
+}
+.info .logo-instagram {
+  margin-top: 20px;
+  color: white;
+}/*# sourceMappingURL=homepage.css.map */

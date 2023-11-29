@@ -1,0 +1,100 @@
+@import '../variables.scss';
+
+.champ{
+    margin-bottom: 5%;
+    font-family: 'Bacasime Antique', serif;
+
+    input, textarea{
+        border-bottom: solid 2px $Color;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-left: 4%;
+        font-size: $subTitle;
+        font-family: 'Bacasime Antique', serif;
+        color: $primaryColor;
+        font-weight: 400;
+
+        &:focus-visible{
+            outline: none;
+        }
+    }
+
+    label{
+        font-size: $subTitle;
+        color: $primaryColor;
+    }
+}
+
+.button-formulaire{
+    display: block;
+    font-size: $subTitle;
+    background-color: transparent;
+    border: solid 2px $Color;
+    font-family: 'Bacasime Antique', serif;
+    width: 50%;
+    margin-left: 23%;
+    color: $primaryColor;
+    cursor: pointer;
+
+    &:focus-visible{
+        outline: none;
+    }
+}
+
+.nom{
+    width: 54%;
+}
+
+.prenom, .message{
+    width: 48%;
+}
+
+.mail{
+    width: 56%;
+}
+
+.tel{
+    width: 58%;
+}
+
+#checkbox{
+    margin-left: 0;
+}
+
+#texte-info{
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.logo-info{
+    color: $Color;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.confirmation-message{
+    background-color: #f4d8ae;
+    position: absolute;
+    top: 49%;
+    width: 39%;
+    height: 82%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: $primaryColor;
+
+    h2{
+        margin-top: 15%;
+        font-size: $subTitle;
+        padding-left: 30px;
+    }
+
+    p{
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 52%;
+        font-size: $subTitle;
+    }
+}

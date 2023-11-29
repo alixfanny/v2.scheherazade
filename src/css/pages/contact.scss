@@ -1,0 +1,30 @@
+@import '../variables.scss';
+
+.contact-section{
+    @include container();
+    font-family: 'Bacasime Antique', serif;
+
+    .title-contact{
+        font-size: $title;
+        color: $primaryColor;
+        border-bottom: solid 2px $Color;
+        width: 12%;
+        margin-bottom: 7%;
+    }
+
+    .contenue-contact{
+        display: flex;
+        margin-bottom: 5%;
+
+        .formulaire{
+            width: 50%;
+        }
+        .texte-photo{
+            width: 50%;
+
+            .texte{
+                font-size: 28px;
+            }
+        }
+    }
+}

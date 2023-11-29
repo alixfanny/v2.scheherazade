@@ -1,0 +1,26 @@
+$title: 48px;
+$subTitle: 36px;
+$texte: 20px;
+$primaryColor:#4C3D3D;
+$secondaryColor: #7A7979;
+$Color:#E29624;
+
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script&display=swap');
+
+
+@mixin display($justify-content, $align-items) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin container() {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.lien{
+    text-decoration: none;
+    color: $primaryColor;
+    font-weight: 700;
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script&display=swap");
+.lien {
+  text-decoration: none;
+  color: #4C3D3D;
+  font-weight: 700;
+}
+
+.apropos {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: "Bacasime Antique", serif;
+}
+.apropos .title-apropos {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  border-bottom: solid 2px #E29624;
+  width: 69%;
+  margin-left: 190px;
+  color: #4C3D3D;
+  margin-bottom: 100px;
+  margin-top: 125px;
+}
+.apropos .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.apropos .section .texte {
+  width: 65%;
+  color: #4C3D3D;
+}
+.apropos .section .texte h3 {
+  font-size: 25px;
+}
+.apropos .section .texte p {
+  font-size: 20px;
+}
+.apropos .section .image2 {
+  width: 66%;
+  height: 100%;
+}
+.apropos .section .photo1 {
+  height: 56vh;
+}
+.apropos .section .photo3 {
+  height: 50vh;
+}
+.apropos .section .photo2 {
+  width: 66%;
+  height: 100%;
+}
+.apropos .liste {
+  font-size: 20px;
+  color: #4C3D3D;
+  margin-bottom: 100px;
+}
+.apropos .line {
+  border-bottom: solid 2px #E29624;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=apropos.css.map */

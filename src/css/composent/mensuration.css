@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script&display=swap");
+.lien {
+  text-decoration: none;
+  color: #4C3D3D;
+  font-weight: 700;
+}
+
+.overlay {
+  position: absolute;
+  top: 18%;
+  right: 35%;
+  border: 2px solid #E29624;
+  width: 19%;
+  z-index: 3;
+  background-color: white;
+  font-size: 20px;
+  color: #4C3D3D;
+}
+.overlay p {
+  margin: 10px;
+  margin-left: 10px;
+}
+.overlay .mensuration {
+  border-bottom: none;
+}/*# sourceMappingURL=mensuration.css.map */
