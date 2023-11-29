@@ -27,7 +27,7 @@ function Formulaire() {
     }
     const handleSubmit =async (e) => {
         e.preventDefault();
-        const formUrl = 'https://script.google.com/macros/s/AKfycbxYKxWvArzQUSUgt0kVwufxfsTiPBpD4rCuKKQmvsZapWWJFsaKaeKiyJlFI0zrOGyp/exec';
+        const formUrl = 'https://script.google.com/macros/s/AKfycbySMusiEmA_t0lTGU-C8uWN0CaDzkiH_27d9jIRTG0sP2bGyFYalE2L30rol6Sk7ifY/exec';
         const data =  new URLSearchParams({
             nom: formData.nom,
             prenom: formData.prenom,
