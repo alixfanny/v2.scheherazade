@@ -20,12 +20,22 @@
   color: #4C3D3D;
   font-weight: 400;
 }
+@media only screen and (max-width: 480px) {
+  .champ input, .champ textarea {
+    font-size: 18px;
+  }
+}
 .champ input:focus-visible, .champ textarea:focus-visible {
   outline: none;
 }
 .champ label {
   font-size: 36px;
   color: #4C3D3D;
+}
+@media only screen and (max-width: 480px) {
+  .champ label {
+    font-size: 18px;
+  }
 }
 
 .button-formulaire {
@@ -41,6 +51,12 @@
 }
 .button-formulaire:focus-visible {
   outline: none;
+}
+@media only screen and (max-width: 480px) {
+  .button-formulaire {
+    font-size: 24px;
+    margin-top: 15%;
+  }
 }
 
 .nom {
@@ -67,6 +83,11 @@
   font-size: 25px;
   margin-left: 2%;
 }
+@media only screen and (max-width: 480px) {
+  #texte-info {
+    font-size: 18px;
+  }
+}
 
 .logo-info {
   color: #E29624;
@@ -86,10 +107,29 @@
   align-items: flex-start;
   color: #4C3D3D;
 }
+@media only screen and (max-width: 480px) {
+  .confirmation-message {
+    top: 21%;
+    width: 89%;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .confirmation-message {
+    top: 27%;
+    width: 82%;
+    height: 52%;
+  }
+}
 .confirmation-message h2 {
   margin-top: 15%;
   font-size: 36px;
   padding-left: 30px;
+}
+@media only screen and (max-width: 480px) {
+  .confirmation-message h2 {
+    padding-left: 0px;
+  }
 }
 .confirmation-message p {
   padding-left: 30px;

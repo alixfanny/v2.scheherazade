@@ -10,6 +10,12 @@
   margin-right: 70px;
   font-family: "Bacasime Antique", serif;
 }
+@media only screen and (max-width: 480px) {
+  .contact-section {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
 .contact-section .title-contact {
   font-size: 48px;
   color: #4C3D3D;
@@ -17,16 +23,76 @@
   width: 12%;
   margin-bottom: 7%;
 }
+@media only screen and (max-width: 480px) {
+  .contact-section .title-contact {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .contact-section .title-contact {
+    text-align: center;
+    font-size: 30px;
+    width: 15%;
+  }
+}
 .contact-section .contenue-contact {
   display: flex;
   margin-bottom: 5%;
 }
+@media only screen and (max-width: 480px) {
+  .contact-section .contenue-contact {
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .contact-section .contenue-contact {
+    flex-direction: column;
+  }
+}
 .contact-section .contenue-contact .formulaire {
   width: 50%;
+}
+@media only screen and (max-width: 480px) {
+  .contact-section .contenue-contact .formulaire {
+    width: 100%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .contact-section .contenue-contact .formulaire {
+    width: 100%;
+    margin-bottom: 2%;
+  }
 }
 .contact-section .contenue-contact .texte-photo {
   width: 50%;
 }
+@media only screen and (max-width: 480px) {
+  .contact-section .contenue-contact .texte-photo {
+    width: 100%;
+    margin-bottom: 25%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .contact-section .contenue-contact .texte-photo {
+    width: 100%;
+  }
+}
 .contact-section .contenue-contact .texte-photo .texte {
   font-size: 28px;
+}
+@media only screen and (max-width: 480px) {
+  .contact-section .contenue-contact .texte-photo .texte {
+    display: none;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .contact-section .contenue-contact .texte-photo .texte {
+    display: none;
+  }
 }/*# sourceMappingURL=contact.css.map */

@@ -5,7 +5,16 @@
     grid-template-columns: 30% 30% 30%;
     gap: 69px;
     @include container();
-    margin-bottom: 4%;  
+    margin-bottom: 4%;
+
+    @media only screen and (max-width: $breakpoint-mobile) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+        gap: 33px;
+    }
 }
 
 .card {
@@ -68,4 +77,10 @@
 .card img {
     max-width: 100%;
     max-height: 100%;
+}
+
+@media only screen and (max-width: $breakpoint-mobile) {
+    img{
+        height: 100%;
+    }
 }

@@ -10,6 +10,22 @@
     background-color: white;
     font-size: $texte;
     color: $primaryColor;
+
+    @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+        top: 10%;
+        right: 0%;
+        width: 123%;
+        font-size: 17px;
+    }
+
+    @media only screen and (max-width: $breakpoint-mobile) {
+        top: 1%;
+        right: 0%;
+        width: 127%;
+        font-size: 17PX;
+        height: 98%;
+
+    }
     
     p{
         margin: 10px;

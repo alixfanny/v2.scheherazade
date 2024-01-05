@@ -4,6 +4,14 @@
     @include container();
     font-family: 'Bacasime Antique', serif;
 
+    @media only screen and (max-width: $breakpoint-mobile) {
+        margin-left: 30px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .avis-tittle{
         text-align: center;
         color: $primaryColor;
@@ -12,6 +20,20 @@
         margin-left: 24%;
         font-size: $subTitle;
         margin-bottom: 6%;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            font-size: 14px;
+            margin-top: 0px;
+            margin-left: 0px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+            font-size: 24px;
+            width: 100%;
+            margin-left: 0px;
+        }
     }
 
     .avis{
@@ -20,15 +42,29 @@
         justify-content: center;
         align-items: center;
         width: 50%;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            width: 100%;
+        }
+
     }
 
     .avis-right{
         margin-left: 50%;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            margin-left: 0px;
+        }
     }
 
     .texte{
         font-size: $texte;
         color: $secondaryColor;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            font-size: 16px;
+            text-align: center;
+        }
     }
 
     .author-avis{

@@ -10,9 +10,20 @@ footer {
   margin-left: 70px;
   margin-right: 70px;
 }
+@media only screen and (max-width: 480px) {
+  footer {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
 footer p {
   color: white;
   font-size: 20px;
   padding: 0.5% 2% 0% 2%;
   margin: 0;
+}
+@media only screen and (max-width: 480px) {
+  footer p {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=footer.css.map */

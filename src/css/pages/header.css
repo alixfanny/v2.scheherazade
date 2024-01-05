@@ -8,11 +8,17 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   margin-left: 70px;
   margin-right: 70px;
   margin-bottom: 70px;
   font-family: "Bacasime Antique", serif;
+}
+@media only screen and (max-width: 480px) {
+  .header {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 .header a {
   text-decoration: none;
@@ -25,15 +31,25 @@
   margin-bottom: 10px;
   color: #4C3D3D;
 }
+@media only screen and (max-width: 480px) {
+  .header .brandname .brandname-name {
+    font-size: 24px;
+  }
+}
 .header .brandname .brandname-work {
   font-size: 36px;
   color: #7A7979;
   margin: 0;
 }
+@media only screen and (max-width: 480px) {
+  .header .brandname .brandname-work {
+    font-size: 24px;
+  }
+}
 .header .menu {
   display: flex;
   justify-content: space-between;
-  font-size: 36px;
+  font-size: 30px;
   width: 58%;
   color: #4C3D3D;
   padding-left: 13%;
@@ -48,7 +64,7 @@
 .header .menu .mensuration {
   cursor: pointer;
 }
-.header .menu .about:hover, .header .menu .avis:hover, .header .menu .contact:hover, .header .menu .mensuration:hover {
+.header .menu .about:hover, .header .menu .avis:hover, .header .menu .contact:hover, .header .menu .mensuration:hover, .header .menu .folio:hover {
   border-bottom: solid 2px #E29624;
   color: #E29624;
 }/*# sourceMappingURL=header.css.map */

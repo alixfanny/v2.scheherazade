@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script&display=swap");
+.lien {
+  text-decoration: none;
+  color: #4C3D3D;
+  font-weight: 700;
+}
+
+.hamburger-icon {
+  font-size: 38px;
+  color: #4C3D3D;
+  cursor: pointer;
+}
+@media only screen and (max-width: 480px) {
+  .hamburger-icon {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .menu-content {
+    position: absolute;
+    right: 6%;
+    top: 0%;
+    background-color: white;
+    padding-left: 2%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .menu-content {
+    top: 3%;
+    position: absolute;
+    right: 3%;
+    background-color: white;
+    padding-left: 2%;
+  }
+}
+.menu-content a, .menu-content .mensuration, .menu-content .menu-item {
+  color: #4C3D3D;
+  font-size: 20px;
+  cursor: pointer;
+  border-bottom: 2px #4C3D3D solid;
+  padding-bottom: 1%;
+}/*# sourceMappingURL=hamburgerMenu.css.map */

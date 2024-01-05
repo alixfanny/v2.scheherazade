@@ -10,6 +10,12 @@
   margin-right: 70px;
   font-family: "Bacasime Antique", serif;
 }
+@media only screen and (max-width: 480px) {
+  .apropos {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
 .apropos .title-apropos {
   text-align: center;
   font-size: 36px;
@@ -21,35 +27,96 @@
   margin-bottom: 100px;
   margin-top: 125px;
 }
+@media only screen and (max-width: 480px) {
+  .apropos .title-apropos {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .apropos .title-apropos {
+    font-size: 24px;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
 .apropos .section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
 }
+@media only screen and (max-width: 480px) {
+  .apropos .section {
+    flex-direction: column;
+  }
+}
 .apropos .section .texte {
   width: 65%;
   color: #4C3D3D;
 }
+@media only screen and (max-width: 480px) {
+  .apropos .section .texte {
+    width: 100%;
+  }
+}
 .apropos .section .texte h3 {
   font-size: 25px;
 }
+@media only screen and (max-width: 480px) {
+  .apropos .section .texte h3 {
+    font-size: 18px;
+  }
+}
 .apropos .section .texte p {
   font-size: 20px;
+}
+@media only screen and (max-width: 480px) {
+  .apropos .section .texte p {
+    font-size: 16px;
+  }
 }
 .apropos .section .image2 {
   width: 66%;
   height: 100%;
 }
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .apropos .section .image2 {
+    margin-right: 4%;
+  }
+}
 .apropos .section .photo1 {
   height: 56vh;
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .apropos .section .photo1 {
+    margin-left: 4%;
+  }
 }
 .apropos .section .photo3 {
   height: 50vh;
 }
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .apropos .section .photo3 {
+    margin-left: 4%;
+  }
+}
 .apropos .section .photo2 {
   width: 66%;
   height: 100%;
+}
+@media only screen and (max-width: 480px) {
+  .apropos .section .photo2 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .apropos .section .photo2 {
+    width: 100%;
+  }
 }
 .apropos .liste {
   font-size: 20px;

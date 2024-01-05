@@ -15,6 +15,10 @@
         color: $primaryColor;
         font-weight: 400;
 
+        @media only screen and (max-width: $breakpoint-mobile) {
+            font-size: 18px;
+        }
+
         &:focus-visible{
             outline: none;
         }
@@ -23,6 +27,10 @@
     label{
         font-size: $subTitle;
         color: $primaryColor;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            font-size: 18px;
+        }
     }
 }
 
@@ -39,6 +47,11 @@
 
     &:focus-visible{
         outline: none;
+    }
+
+    @media only screen and (max-width: $breakpoint-mobile) {
+        font-size: 24px;
+        margin-top: 15%;
     }
 }
 
@@ -65,6 +78,10 @@
 #texte-info{
     font-size: 25px;
     margin-left: 2%;
+
+    @media only screen and (max-width: $breakpoint-mobile) {
+        font-size: 18px;
+    }
 }
 
 .logo-info{
@@ -85,10 +102,26 @@
     align-items: flex-start;
     color: $primaryColor;
 
+    @media only screen and (max-width: $breakpoint-mobile) {
+        top: 21%;
+        width: 89%;
+        align-items: center;
+    }
+
+    @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+        top: 27%;
+        width: 82%;
+        height: 52%;
+    }
+
     h2{
         margin-top: 15%;
         font-size: $subTitle;
         padding-left: 30px;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            padding-left: 0px;
+        }
     }
 
     p{

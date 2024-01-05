@@ -1,44 +1,38 @@
 import '../css/pages/header.css';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import Mensuration from '../composant/mensuration';
+import { useState, useEffect } from 'react';
+import RegularMenu from '../composant/regularMenu';
+import HamburgerMenu from '../composant/HamburgerMenu';
 
 function Header() {
 
-    const [showMensuration, setShowMensuration] = useState(false);
 
-    const handleMouseEnter = () => {
-        setShowMensuration(true);
-    };
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1300);
 
-    const handleMouseLeave = () => {
-        setShowMensuration(false);
-    };
+    useEffect(() => {
+        const handleResize = () => {
+          setIsMobile(window.innerWidth < 1300);
+        };
+    
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    
 
     return(
         <div className="header">
             <div className="brandname">
-                <Link to="/portfolio">
-                    <h1 className="brandname-name">Schéhérazade B</h1>
-                </Link>
+                <h1 className="brandname-name">Schéhérazade B</h1>
                 <p className="brandname-work">Top Model</p> 
             </div>
-            <div className="menu">
-                <p className='mensuration menu-item' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Mensuration</p>
-                {showMensuration && <Mensuration onClose={() => setShowMensuration(false)} />}
-                <Link to="/apropos">
-                    <p className="about menu-item">A propos</p>
-                </Link>
-
-                <Link to="/avis">
-                    <p className="avis menu-item">Avis</p>
-                </Link>
-
-                <Link to="/contact">
-                    <p className="contact menu-item">Contact</p>
-                </Link>
-            </div>
+            {isMobile ? (
+                <HamburgerMenu />
+            ) : (
+                <RegularMenu />
+            )}
         </div>
+                
     )
 }
 

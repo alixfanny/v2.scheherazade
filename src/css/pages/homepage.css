@@ -30,6 +30,11 @@
   color: white;
   font-family: "Bacasime Antique", serif;
 }
+@media only screen and (max-width: 480px) {
+  .title-name {
+    font-size: 45px;
+  }
+}
 
 .info {
   position: absolute;
@@ -47,10 +52,27 @@
   margin: 0;
   font-family: "Dancing Script", cursive;
 }
+@media only screen and (max-width: 480px) {
+  .info .quote-text {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .info .quote-text {
+    text-align: center;
+    font-size: 30px;
+  }
+}
 .info .quote-author {
   margin-top: 10px;
   margin-bottom: 40px;
   font-family: "Bacasime Antique", serif;
+}
+@media only screen and (max-width: 480px) {
+  .info .quote-author {
+    font-size: 24px;
+  }
 }
 .info .button-portfolio {
   width: 29%;
@@ -58,6 +80,16 @@
   justify-content: center;
   text-decoration: none;
   cursor: pointer;
+}
+@media only screen and (max-width: 480px) {
+  .info .button-portfolio {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .info .button-portfolio {
+    width: 100%;
+  }
 }
 .info .button-portfolio #btnPortfolioAccess {
   display: block;
@@ -68,6 +100,12 @@
   font-size: 48px;
   cursor: pointer;
   font-family: "Bacasime Antique", serif;
+}
+@media only screen and (max-width: 480px) {
+  .info .button-portfolio #btnPortfolioAccess {
+    padding: 4%;
+    font-size: 38px;
+  }
 }
 .info .logo-instagram {
   margin-top: 20px;

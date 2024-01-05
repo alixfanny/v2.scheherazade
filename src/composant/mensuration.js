@@ -1,6 +1,22 @@
+import React, { useEffect } from 'react';
 import '../css/composent/mensuration.css'
 
 function Mensuration({onClose}) {
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            const modal = document.querySelector('.overlay');
+            if (modal && !modal.contains(event.target)) {
+                onClose();
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [onClose]);
 
     return(
         <div className="overlay">

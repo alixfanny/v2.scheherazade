@@ -4,26 +4,81 @@
     @include container();
     font-family: 'Bacasime Antique', serif;
 
+    @media only screen and (max-width: $breakpoint-mobile) {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
     .title-contact{
         font-size: $title;
         color: $primaryColor;
         border-bottom: solid 2px $Color;
         width: 12%;
         margin-bottom: 7%;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            font-size: 24px;
+        }
+
+        @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+            text-align: center;
+            font-size: 30px;
+            width: 15%;
+        }
     }
 
     .contenue-contact{
         display: flex;
         margin-bottom: 5%;
 
+        @media only screen and (max-width: $breakpoint-mobile) {
+            flex-direction: column;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+        @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+            flex-direction: column;
+        }
+
         .formulaire{
             width: 50%;
+
+            @media only screen and (max-width: $breakpoint-mobile) {
+                width: 100%;
+                margin-bottom: 15%;
+                margin-top: 10%;
+                text-align: center;
+            }
+
+            @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+                width: 100%;
+                margin-bottom: 2%;
+            }
         }
         .texte-photo{
             width: 50%;
+            @media only screen and (max-width: $breakpoint-mobile) {
+                width: 100%;
+                margin-bottom: 25%;
+            }
+
+            @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+                width: 100%;
+            }
 
             .texte{
                 font-size: 28px;
+
+                @media only screen and (max-width: $breakpoint-mobile) {
+                    display: none;
+                }
+
+                @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+                    display: none;
+                }
             }
         }
     }

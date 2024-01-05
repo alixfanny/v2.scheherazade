@@ -24,6 +24,10 @@
     margin-left: 55px;
     color: white;
     font-family: 'Bacasime Antique', serif;
+
+    @media only screen and (max-width: $breakpoint-mobile) {
+        font-size: 45px;
+    }
 }
 
 .info{
@@ -39,12 +43,26 @@
     .quote-text{
         margin: 0;
         font-family: 'Dancing Script', cursive;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+            text-align: center;
+            font-size: 30px;
+        }
     }
 
     .quote-author{
         margin-top: 10px;
         margin-bottom: 40px;
         font-family: 'Bacasime Antique', serif;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            font-size: 24px;
+        }
     }
 
     .button-portfolio{
@@ -53,6 +71,14 @@
         justify-content: center;
         text-decoration: none;
         cursor: pointer;
+
+        @media only screen and (max-width: $breakpoint-mobile) {
+            width: 100%;
+        }
+
+        @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+            width: 100%;
+        }
 
         #btnPortfolioAccess{
             display: block;
@@ -63,6 +89,12 @@
             font-size: $title;
             cursor: pointer;
             font-family: 'Bacasime Antique', serif;
+
+            @media only screen and (max-width: $breakpoint-mobile) {
+                padding: 4%;
+                font-size: 38px;
+            }
+
         }
     }
 

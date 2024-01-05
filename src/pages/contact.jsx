@@ -15,7 +15,7 @@ function Contact() {
                         <p>Nous partageons la même passion ?<br/>Alors <b>contact moi maintenant </b>et parlons ensemble de ton projet !</p>
                     </div>
                     <div className="container-photo">
-                    <img src={photo} alt='schéhérazade en voyage humanitaire aux mali' className='photo'></img>
+                    <img src={photo} alt='schéhérazade' className='photo'></img>
                     </div>
                 </div>
             </div>

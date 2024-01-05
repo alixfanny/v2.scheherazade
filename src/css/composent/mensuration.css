@@ -16,6 +16,23 @@
   font-size: 20px;
   color: #4C3D3D;
 }
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .overlay {
+    top: 10%;
+    right: 0%;
+    width: 123%;
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .overlay {
+    top: 1%;
+    right: 0%;
+    width: 127%;
+    font-size: 17PX;
+    height: 98%;
+  }
+}
 .overlay p {
   margin: 10px;
   margin-left: 10px;

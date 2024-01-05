@@ -1,0 +1,38 @@
+@import '../variables.scss';
+
+.hamburger-icon{
+    font-size: 38px;
+    color: $primaryColor;
+    cursor: pointer;
+
+    @media only screen and (max-width: $breakpoint-mobile) {
+        font-size: 24px;
+    }
+}
+
+.menu-content{
+    @media only screen and (max-width: $breakpoint-mobile) {
+        position: absolute;
+        right: 6%;
+        top: 0%; 
+        background-color: white;
+        padding-left: 2%;
+    }
+
+    @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
+        top: 3%;
+        position: absolute;
+        right: 3%;
+        background-color: white;
+        padding-left: 2%;
+    }
+
+    a, .mensuration, .menu-item{
+        color: $primaryColor;
+        font-size: 20px;
+        cursor: pointer;
+        border-bottom: 2px $primaryColor solid;
+        padding-bottom: 1%;
+    }
+
+}

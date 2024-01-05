@@ -6,6 +6,9 @@ $secondaryColor: #7A7979;
 $Color:#E29624;
 
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script&display=swap');
+$breakpoint-mobile: 480px; // Mobile devices
+$breakpoint-tablet: 900px; // Tablet devices
+$breakpoint-mobile-plus-one: $breakpoint-mobile + 1px;
 
 
 @mixin display($justify-content, $align-items) {
