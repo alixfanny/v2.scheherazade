@@ -1,5 +1,4 @@
 import '../css/pages/header.css';
-import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import RegularMenu from '../composant/regularMenu';
 import HamburgerMenu from '../composant/HamburgerMenu';
