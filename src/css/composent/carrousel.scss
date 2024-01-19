@@ -1,12 +1,5 @@
 @import '../variables.scss';
 
-body{
-    margin: 0;
-}
-
-button{
-    display: none;
-}
 
 img{
     width: 100%;
@@ -20,4 +13,42 @@ img{
     @media only screen and (min-width: $breakpoint-mobile-plus-one) and (max-width: $breakpoint-tablet) {
         height: 100vh;
     }
+}
+
+
+.slick-slider,
+.slick-list,
+.slick-track,
+.slick-slide,
+.slick-slide > div,
+.slick-slide > div > div {
+    min-height: 100vh;
+}
+
+.slick-slide > div > div {
+    overflow: hidden;
+    position: relative;
+
+    & > img {
+        min-height: 100%;
+        min-width: 100%;
+        max-height: 150%;
+        max-width: 150%;
+        width: auto;   
+        height: auto;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+
+    }
+}
+
+
+body{
+    margin: 0;
+}
+
+button{
+    display: none;
 }
