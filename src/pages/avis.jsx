@@ -26,7 +26,7 @@ function Avis () {
                     Collaborer avec Schéhérazade est synonyme d’excellence. Son expertise dans l’art de la pose et son sourire contagieux ajoutent une dimension spéciale à chaque photo.
                     En effet, vous ne trouverez pas seulement une modèle compétente, mais également une source d’inspiration."
                 </p>
-                <a href="https://www.instagram.com/vanerraa/" target="_blank" rel="noreferrer" className='lien'>
+                <a href="https://www.instagram.com/vanerra_vannerie/" target="_blank" rel="noreferrer" className='lien'>
                    <p><FontAwesomeIcon icon={faInstagram} className='logo-instagram' /> Vanerra</p> 
                 </a>
             </div>

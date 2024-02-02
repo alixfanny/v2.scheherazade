@@ -13,14 +13,12 @@ function Apropos() {
                     <p>  Je m'appelle Schéhérazade, originaire de Paris, je vis depuis 2017 en région PACA.<br/>
                         Issue d'un cursus d'ingénieur dans le Bâtiment, l'Aménagement et l'Architecture au sein de l'école HEI (Hautes Etudes d'Ingénieur) à Lille et de l'Ecole Nationale Supérieure d'Architecture et de Paysage à Villeneuve d'Ascq, mes professeurs me surnomment "Miss France" pour mon élégance naturelle et mon entourage m'encourage à passer des castings de mannequin.
                     </p>
-                    <p>Pourtant, je décide de faire de mes études une priorité tout en gardant la photo qui m'accompagne depuis toujours comme loisir plaisir.
-                        Après un début de carrière dans le secteur privé du bâtiment, j'incorpore le corps des IMI (Ingénieurs Militaire de l'Infrastructure) en 2016.
-                        Sollicitée par le service communication des armées, lorsque j'occupais mes fonctions de Chef d'antenne infrastructure, je deviens en 2019 ambassadrice des IMI et réalise des shootings et vidéos pour l'armée Française : <a href="https://www.youtube.com/watch?v=GgLUtlDmtzs" target="_blank" rel="noreferrer" className='lien'>Je suis chef d'antenne infrastructure au SID ! - YouTube</a>
-                    </p>
-                    <p>"Il faut prendre le temps de s'aimer et de se connaitre avant de se lancer dans une vie qui n'est pas faite pour soi. Il n'y a pas de norme au bonheur, pas de règles, pas de dates."
+                    <p>Pourtant, je décide de faire de mes études et mon travail une priorité tout en gardant la photo qui m'accompagne depuis toujours comme loisir plaisir. En 2019, sollicitée par le service de communication des armées, je deviens ambassadrice des IMI (Ingénieur Militaire de l'Infrastructure) et réalise des shootings et vidéos pour l'armée Française : <a href="https://www.youtube.com/watch?v=GgLUtlDmtzs" target="_blank" rel="noreferrer" className='lien'>Je suis chef d'antenne infrastructure au SID ! - YouTube</a>
                     </p>
                     <p>Après une interruption prématurée de ma carrière militaire au grade de Capitaine suite à un accident de travail, mon loisir plaisir a pris de plus en plus de place.
                         En 1 an, j'ai été contacté par plus de 10 marques locales de Fréjus et Saint-Raphaël pour des shootings, catalogues et défilés de vêtements, sacs à mains, robes de mariée et bijoux.
+                    </p>
+                    <p>"Il faut prendre le temps de s'aimer et de se connaitre avant de se lancer dans une vie qui n'est pas faite pour soi. Il n'y a pas de norme au bonheur, pas de règles, pas de dates."
                     </p>
                 </div>
                 <div className='image'>
@@ -63,7 +61,7 @@ function Apropos() {
                 <p>Le dénominateur commun de chacune de mes expériences est la BBE, c'est pourquoi :</p>
                 <ul>
                     <li>Ma personnalité d'ingénieur et de décoratrice d'intérieur continue d'exercer à travers le blog Instagram TMH <a href="https://www.instagram.com/toit_et_moi_en_harmonie/" target="_blank" rel="noreferrer" className='lien'>@Toit_et_moi_en_Harmonie</a> dont l'objectif et de partager des outils et des méthodes de bien-être chez Soi et en Soi. TMH c'est le lien subtil entre notre monde intérieur et notre monde extérieur. L'un existe parce que l'autre le crée.</li>
-                    <li>Ma personnalité de Top Model s'épanouie à travers les shootings et défilés en lien avec la BBE que vous pouvez voir sur le book en ligne et sur le portfolio Instagram @scheherazade_portfolio.</li>
+                    <li>Ma personnalité de Top Model s'épanouie à travers les shootings et défilés en lien avec la BBE que vous pouvez voir sur le book en ligne et sur le portfolio Instagram <a href="https://www.instagram.com/scheherazade_portfolio/" target="_blank" rel="noreferrer" className='lien'>@scheherazade_portfolio.</a></li>
                     <li>Et pour mon plus grand bonheur, ma moitié et ma chienne Harmonie, que vous voyez sur les photos, m'accompagne dans mes différents projets.</li>
                 </ul>
             </div>

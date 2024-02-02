@@ -1,7 +1,6 @@
 import React from 'react';
 import Carrousel from '../composant/carrousel';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 import '../css/pages/homepage.css'
 
 
@@ -18,9 +17,6 @@ function HomePage() {
                     <button type="button" id="btnPortfolioAccess" className="btn btn-outline-light button-portfolio-access">
                     Accédez au Portfolio
                     </button>
-                </a>
-                <a href="https://www.instagram.com/scheherazade_portfolio" className='lien-instagram' target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faInstagram} className='logo-instagram' />
                 </a>
             </div>
         </section>

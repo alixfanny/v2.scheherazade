@@ -38,7 +38,7 @@
 }
 .header .brandname .brandname-work {
   font-size: 36px;
-  color: #7A7979;
+  color: #E29624;
   margin: 0;
 }
 @media only screen and (max-width: 480px) {
@@ -49,7 +49,8 @@
 .header .menu {
   display: flex;
   justify-content: space-between;
-  font-size: 30px;
+  align-items: baseline;
+  font-size: 28px;
   width: 58%;
   color: #4C3D3D;
   padding-left: 13%;
@@ -67,4 +68,14 @@
 .header .menu .about:hover, .header .menu .avis:hover, .header .menu .contact:hover, .header .menu .mensuration:hover, .header .menu .folio:hover {
   border-bottom: solid 2px #E29624;
   color: #E29624;
+}
+.header .menu a {
+  color: #E29624;
+}
+.header .menu a .logo-instagram {
+  font-size: 30px;
+}
+
+.title-name {
+  color: black;
 }/*# sourceMappingURL=header.css.map */

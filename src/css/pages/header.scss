@@ -30,7 +30,7 @@
 
         .brandname-work{
             font-size: $subTitle;
-            color: $secondaryColor;
+            color: $Color;
             margin: 0;
 
             @media only screen and (max-width: $breakpoint-mobile) {
@@ -42,7 +42,8 @@
     .menu{
         display: flex;
         justify-content: space-between;
-        font-size: 30px;
+        align-items: baseline;
+        font-size: 28px;
         width: 58%;
         color: $primaryColor;
         padding-left: 13%;
@@ -63,5 +64,17 @@
             border-bottom: solid 2px $Color;
             color: $Color;
         }
+
+        a{
+            color: $Color;
+
+            .logo-instagram{
+                font-size: 30px;
+            }
+        }
     }
+}
+
+.title-name{
+    color: black;
 }

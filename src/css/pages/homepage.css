@@ -32,15 +32,16 @@
 }
 @media only screen and (max-width: 480px) {
   .title-name {
-    font-size: 45px;
+    font-size: 35px;
+    margin-left: 5px;
   }
 }
 
 .info {
   position: absolute;
-  top: 60%;
+  top: 80%;
   color: white;
-  font-size: 36px;
+  font-size: 28px;
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -66,7 +67,7 @@
 }
 .info .quote-author {
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   font-family: "Bacasime Antique", serif;
 }
 @media only screen and (max-width: 480px) {
@@ -96,8 +97,7 @@
   border: white solid;
   background-color: transparent;
   color: white;
-  padding: 1%;
-  font-size: 48px;
+  font-size: 33px;
   cursor: pointer;
   font-family: "Bacasime Antique", serif;
 }

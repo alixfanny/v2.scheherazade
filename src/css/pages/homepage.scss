@@ -26,15 +26,16 @@
     font-family: 'Bacasime Antique', serif;
 
     @media only screen and (max-width: $breakpoint-mobile) {
-        font-size: 45px;
+        font-size: 35px;
+        margin-left: 5px;
     }
 }
 
 .info{
     position: absolute;
-    top: 60%;
+    top: 80%;
     color: white;
-    font-size: $subTitle;
+    font-size: 28px;
     z-index: 2;
     @include display(center, center);
     flex-direction: column;
@@ -43,6 +44,7 @@
     .quote-text{
         margin: 0;
         font-family: 'Dancing Script', cursive;
+        
 
         @media only screen and (max-width: $breakpoint-mobile) {
             font-size: 24px;
@@ -57,7 +59,7 @@
 
     .quote-author{
         margin-top: 10px;
-        margin-bottom: 40px;
+        margin-bottom: 15px;
         font-family: 'Bacasime Antique', serif;
 
         @media only screen and (max-width: $breakpoint-mobile) {
@@ -85,8 +87,7 @@
             border: white solid;
             background-color: transparent;
             color: white;
-            padding: 1%;
-            font-size: $title;
+            font-size: 33px;
             cursor: pointer;
             font-family: 'Bacasime Antique', serif;
 
