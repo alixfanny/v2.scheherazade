@@ -49,6 +49,11 @@
   flex-direction: column;
   width: 100vw;
 }
+@media only screen and (max-width: 480px) {
+  .info {
+    top: 75%;
+  }
+}
 .info .quote-text {
   margin: 0;
   font-family: "Dancing Script", cursive;

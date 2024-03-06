@@ -47,8 +47,8 @@
 .apropos .section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 100px;
+  align-items: flex-start;
+  margin-bottom: 50px;
 }
 @media only screen and (max-width: 480px) {
   .apropos .section {
@@ -81,7 +81,7 @@
   }
 }
 .apropos .section .image2 {
-  width: 66%;
+  width: 33%;
   height: 100%;
 }
 @media only screen and (min-width: 481px) and (max-width: 900px) {
@@ -121,7 +121,7 @@
 }
 .apropos .liste {
   font-size: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .apropos .liste ul {
   list-style-type: none;
@@ -142,4 +142,11 @@
   width: 50%;
   margin-left: 25%;
   margin-bottom: 100px;
+}
+
+.poeme {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 100px;
+  margin-top: -134px;
 }/*# sourceMappingURL=apropos.css.map */
